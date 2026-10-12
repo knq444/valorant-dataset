@@ -1,0 +1,258 @@
+{
+  "schema": "cortexarena.public-dataset.v1",
+  "release_id": "v0.9.0-d2245328c503",
+  "created_at": "2026-10-12T22:31:56.559171+00:00",
+  "dataset": {
+    "samples": 535,
+    "matches": 6,
+    "sources": 6,
+    "human_verified": 0,
+    "ai_inspected": 535,
+    "pending": 0,
+    "dataset_sha256": "d2245328c503fdc6e80fb55b31d10ab11b39e02e14b9a3a4515ce21bfa368ff3"
+  },
+  "scene_model_sha256": "6e9bd2728434ecbb97ba9e1a09648ee0952f6e707179ddf320b9c4e485a1e14c",
+  "supervision": "ai_assisted_exploratory",
+  "scope": "observer_truth",
+  "licenses": {
+    "original_annotations_and_own_weights": "CC-BY-4.0",
+    "original_code": "MIT",
+    "third_party_media": "not_included"
+  },
+  "automatic_global_model_updates": false,
+  "move_proposals": [
+    {
+      "status": "public_structure_and_hashes_valid",
+      "source": {
+        "match_id": "masters-london-2026-playoffs-prx-lev",
+        "source_url": "https://www.youtube.com/watch?v=BAH3zpoOYXQ",
+        "source_media_sha256": "6e288320924392c66df029a831e3bff596459a06a5f33744f58985684a2a0f0b",
+        "report_sha256": "c9512604db049ab68e8cad2c22d544d1541d5f8b02c947adcf2f9f8052eb506f",
+        "binding_status": "report_declared_media_digest_not_media_reverified",
+        "manifest_sha256": "f27861ae9a4dce5070ba3e6e24f9316b91fc918af7664cdc349daf610f5ae532",
+        "model_sha256": "6e9bd2728434ecbb97ba9e1a09648ee0952f6e707179ddf320b9c4e485a1e14c"
+      },
+      "timeline_windows": 2393,
+      "candidate_count": 32,
+      "human_verified_examples": 0,
+      "training_eligible_events": 0,
+      "validation_scope": "export_integrity_and_causal_rubric_not_video_ground_truth"
+    },
+    {
+      "status": "public_structure_and_hashes_valid",
+      "source": {
+        "match_id": "champions-shanghai-2026-groups-loud-edg",
+        "source_url": "https://www.youtube.com/watch?v=ZphbktbT26k",
+        "source_media_sha256": "59022988340fa5b60575d91b7519cf6323732c9f2810a80c85b2445e395d7885",
+        "report_sha256": "f842f5f4b02508a48e684098b9cfeb95393da3052c5148160ae51540c2e7c3d2",
+        "binding_status": "report_declared_media_digest_not_media_reverified",
+        "manifest_sha256": "b8ff4d4612c147690c80342ca9cc562fdb7975c4920cd7bbabdf17920f0d46bd",
+        "model_sha256": "6e9bd2728434ecbb97ba9e1a09648ee0952f6e707179ddf320b9c4e485a1e14c"
+      },
+      "timeline_windows": 2327,
+      "candidate_count": 36,
+      "human_verified_examples": 0,
+      "training_eligible_events": 0,
+      "validation_scope": "export_integrity_and_causal_rubric_not_video_ground_truth"
+    },
+    {
+      "status": "public_structure_and_hashes_valid",
+      "source": {
+        "match_id": "champions-shanghai-2026-playoffs-g2-t1",
+        "source_url": "https://www.youtube.com/watch?v=2EzWX2VemjM",
+        "source_media_sha256": "50274c2d62cf9ec06763bc7e70e6d71b50b93915706fa117d98f7fb7c696df44",
+        "report_sha256": "467f6cb582bc5db7f5a35ac4487cb8a7aaf54f1588bb9154cc22eea17a6050c8",
+        "binding_status": "report_declared_media_digest_not_media_reverified",
+        "manifest_sha256": "3d8fad0a1cffd3c32ac96aa4e3453c705a8080f72e50ede9ca0831fe73292dc5",
+        "model_sha256": "6e9bd2728434ecbb97ba9e1a09648ee0952f6e707179ddf320b9c4e485a1e14c"
+      },
+      "timeline_windows": 4526,
+      "candidate_count": 63,
+      "human_verified_examples": 0,
+      "training_eligible_events": 0,
+      "validation_scope": "export_integrity_and_causal_rubric_not_video_ground_truth"
+    }
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": ".github/workflows/dataset.yml",
+      "bytes": 445,
+      "sha256": "f12c72d34d3ca4736c801b490faa3bd35b76d3e3c06afe06ded32c670145a36a"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 89,
+      "sha256": "4f278c1beb393507dd1bd861d66dcc4af9768bc69d356c5c05a7c608f527e705"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 956,
+      "sha256": "eb1004b128654797807dd0e4188b0f66ef2ce6f915e5420bfe7d39c23467fa3f"
+    },
+    {
+      "path": "LICENSE-CODE",
+      "bytes": 1082,
+      "sha256": "de9683af66680eb3dd5461d7efeb8a33dc163426601930ffa8abddbc36ba92be"
+    },
+    {
+      "path": "LICENSE-DATA",
+      "bytes": 206,
+      "sha256": "a6d84932871723facee0e5d1c129c00b5928fb507fc7a5f13c34b14fabe2da97"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3629,
+      "sha256": "be832ed72c4c295f88bfaef2db0bba80cb11f115c42ddc0eff800564fc7fd8a9"
+    },
+    {
+      "path": "annotations/ai_case_assessments.json",
+      "bytes": 23925,
+      "sha256": "98ae98e6e67aa4d78c801a49621656545413b8f7c73bb0df09f8cb86a7a35703"
+    },
+    {
+      "path": "annotations/original_moves.jsonl",
+      "bytes": 4547,
+      "sha256": "67b1d3baa219bb43c39e1b981e7de6ef0e28bf7558810ac93af8ad55bee06f83"
+    },
+    {
+      "path": "annotations/scenes.jsonl",
+      "bytes": 443560,
+      "sha256": "d2245328c503fdc6e80fb55b31d10ab11b39e02e14b9a3a4515ce21bfa368ff3"
+    },
+    {
+      "path": "docs/NEW_VOD_SOURCES.md",
+      "bytes": 7188,
+      "sha256": "6b590af5b18906e254b97447bc75d1e9793cbe2a4e0d4ae89d092657e90d6474"
+    },
+    {
+      "path": "docs/VALORANT_TACTICAL_RESEARCH.md",
+      "bytes": 21396,
+      "sha256": "2a4e36daec1611d291cb048d2b8f8c485077fd49bc5d8477d35f82b80c8b7a5b"
+    },
+    {
+      "path": "models/scene/MODEL_CARD.md",
+      "bytes": 927,
+      "sha256": "346184c9f0a74ece399c68d7e4f23cbe5931b76813a941be1a03c7730bbca08a"
+    },
+    {
+      "path": "models/scene/model.json",
+      "bytes": 624,
+      "sha256": "885e6f8967124ad34ecc1f89d13105c85a2c7a742ca0b38b0a13d36693c07761"
+    },
+    {
+      "path": "models/scene/model.npz",
+      "bytes": 600365,
+      "sha256": "6e9bd2728434ecbb97ba9e1a09648ee0952f6e707179ddf320b9c4e485a1e14c"
+    },
+    {
+      "path": "models/scene/report.json",
+      "bytes": 198145,
+      "sha256": "719d921890f04907c359e03572526e80e6a9a96571fccf2eecf6925de20a818c"
+    },
+    {
+      "path": "move_proposals/01/candidates.jsonl",
+      "bytes": 1120642,
+      "sha256": "1feb6266db8d170ff2aa451504a4238333baa75ebb4c1a1b2407a3d3664d7348"
+    },
+    {
+      "path": "move_proposals/01/summary.json",
+      "bytes": 2609,
+      "sha256": "0762de2b9868de6385ef15d489822624f4ee5d58052c1de65b250f80a47ded8e"
+    },
+    {
+      "path": "move_proposals/01/timeline.jsonl",
+      "bytes": 6667038,
+      "sha256": "2cbe35c9bfc8e0c7def0373e7533506b43b16ded934a5c87b915e9d40adc2d59"
+    },
+    {
+      "path": "move_proposals/02/candidates.jsonl",
+      "bytes": 1155618,
+      "sha256": "f0ad507515e2a2dbad864c3062f7478221267ddef0db1a1b4aa644db83232deb"
+    },
+    {
+      "path": "move_proposals/02/summary.json",
+      "bytes": 2615,
+      "sha256": "0fb396a3fa182873bb2685cb6e8dcf9c0d1d1e5f80f890b6266553b177baedfa"
+    },
+    {
+      "path": "move_proposals/02/timeline.jsonl",
+      "bytes": 6413654,
+      "sha256": "894123cb6fde9635d4cc049c1bcd3f910f293ddf099299d13fbf4faab19d87ec"
+    },
+    {
+      "path": "move_proposals/03/candidates.jsonl",
+      "bytes": 2185211,
+      "sha256": "73dd6875bc5aa4b2c013845ee9a14d18925adf0cdca81c7c753e12ffa8ddcea6"
+    },
+    {
+      "path": "move_proposals/03/summary.json",
+      "bytes": 2618,
+      "sha256": "13ee5c1a2846f13dafce959e25cee3ecf4f23f42e16c8163b1e61797bfc1d246"
+    },
+    {
+      "path": "move_proposals/03/timeline.jsonl",
+      "bytes": 12522679,
+      "sha256": "ad9e54945f527500c802eb77ec71676d646c7f548288057b1e762d82d9641028"
+    },
+    {
+      "path": "recipes.json",
+      "bytes": 996,
+      "sha256": "534df0bf3b2deb57ad9727b7a643e3e8c021a32cb828ef3cf87ced531d2b82a8"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 23,
+      "sha256": "b0ca75f7139ecc72e615efa52e9f9cee5af83e78b148886f02f403c254c02f94"
+    },
+    {
+      "path": "source_catalog.json",
+      "bytes": 12442,
+      "sha256": "5050ea0ccadff16693e857eecc7519cc6f7aeeaaa8d01664dc1c1076372553a1"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 1809,
+      "sha256": "b7fef1a7622adc9771f45e59df227e4015226c8d73a2cb395b66122f0a243425"
+    },
+    {
+      "path": "splits.json",
+      "bytes": 328,
+      "sha256": "79a41670330bf816fe78d08ff666fa405f014d7577bf309ed8b6f7487b7200a6"
+    },
+    {
+      "path": "training/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "training/predict.py",
+      "bytes": 414,
+      "sha256": "70012f48bba010382efa604abe15a873528a69844544679257244c771b4db45a"
+    },
+    {
+      "path": "training/reconstruct.py",
+      "bytes": 4208,
+      "sha256": "d7b516e1b2ed80966228db5fd3c7a0f2ae5cefe62806976d75f4509daa12489e"
+    },
+    {
+      "path": "training/retrain.py",
+      "bytes": 721,
+      "sha256": "1dc7a85a03b8dda302866c68e73f07ebfea405fb0029c8ecd5ff5cba8b582148"
+    },
+    {
+      "path": "training/semantic.py",
+      "bytes": 38254,
+      "sha256": "e5133c1053aceb063f013ec3cc354c68c5c36fb6abe95d8f86d6b7979e1a9af5"
+    },
+    {
+      "path": "training/verify.py",
+      "bytes": 907,
+      "sha256": "9041a59477198022699f8ee59c5a21b57c1329efba5204481dd19b42938be524"
+    }
+  ]
+}

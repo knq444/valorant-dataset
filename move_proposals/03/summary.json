@@ -1,0 +1,66 @@
+{
+  "schema": "cortexarena.move-candidate-export.v1",
+  "status": "review_proposals_exported",
+  "source": {
+    "match_id": "champions-shanghai-2026-playoffs-g2-t1",
+    "source_url": "https://www.youtube.com/watch?v=2EzWX2VemjM",
+    "source_media_sha256": "50274c2d62cf9ec06763bc7e70e6d71b50b93915706fa117d98f7fb7c696df44",
+    "report_sha256": "467f6cb582bc5db7f5a35ac4487cb8a7aaf54f1588bb9154cc22eea17a6050c8",
+    "binding_status": "report_declared_media_digest_not_media_reverified",
+    "manifest_sha256": "3d8fad0a1cffd3c32ac96aa4e3453c705a8080f72e50ede9ca0831fe73292dc5",
+    "model_sha256": "6e9bd2728434ecbb97ba9e1a09648ee0952f6e707179ddf320b9c4e485a1e14c"
+  },
+  "coverage": {
+    "source_duration_s": 9061.0,
+    "covered_until_s": 9061.0,
+    "complete": true,
+    "timeline_windows": 4526,
+    "gameplay_windows_with_following_sample": 2951,
+    "scope": "sampled_timeline_not_every_action_or_every_player"
+  },
+  "candidate_count": 63,
+  "event_counts": {
+    "weapon_fire_candidate": 36,
+    "health_loss_candidate": 12,
+    "reload_candidate": 15
+  },
+  "coverage_status_counts": {
+    "scene_ineligible": 1419,
+    "recognition_unknown": 156,
+    "no_candidate_detected": 2896,
+    "candidate_detected": 55
+  },
+  "conditional_classification_counts": {
+    "Indeterminado": 63
+  },
+  "conditionally_scored_candidates": 51,
+  "unknown_action_candidates": 12,
+  "unscored_candidates": 12,
+  "duplicate_proposals_merged": 0,
+  "omitted_proposals": 0,
+  "validated_candidates": 0,
+  "human_verified_examples": 0,
+  "training_eligible_events": 0,
+  "training_target": null,
+  "media_redistributed": false,
+  "limitations": [
+    "Machine proposals and OCR identity require independent clip review.",
+    "Intervals do not locate the exact action instant or count every action inside them.",
+    "Initial-snapshot rubric points are conditional, experimental and not calibrated win rates.",
+    "Observer evidence does not establish player knowledge or simultaneous actions of both teams.",
+    "Scene labels, event candidates and rubric grades are not validated tactical training targets.",
+    "The exporter binds report/media digests; it does not reverify media bytes or frame visibility."
+  ],
+  "files": {
+    "candidates.jsonl": {
+      "sha256": "73dd6875bc5aa4b2c013845ee9a14d18925adf0cdca81c7c753e12ffa8ddcea6",
+      "records": 63,
+      "bytes": 2185211
+    },
+    "timeline.jsonl": {
+      "sha256": "ad9e54945f527500c802eb77ec71676d646c7f548288057b1e762d82d9641028",
+      "records": 4526,
+      "bytes": 12522679
+    }
+  }
+}

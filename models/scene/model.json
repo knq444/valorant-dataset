@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "feature_version": "spatial_rgb_edges_v1",
+  "scope": "observer_truth",
+  "supervision": "ai_assisted_exploratory",
+  "model_sha256": "6e9bd2728434ecbb97ba9e1a09648ee0952f6e707179ddf320b9c4e485a1e14c",
+  "dataset_sha256": "d2245328c503fdc6e80fb55b31d10ab11b39e02e14b9a3a4515ce21bfa368ff3",
+  "temperature": 1,
+  "confidence_threshold": 0.55,
+  "ood_distance_threshold": 2.099486887750258,
+  "trained_states": [
+    "broadcast_break",
+    "gameplay_pov",
+    "replay",
+    "unknown"
+  ],
+  "trained_events": [],
+  "learned_samples": 358,
+  "split_mode": "match_holdout_fixed"
+}

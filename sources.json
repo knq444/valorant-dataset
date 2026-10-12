@@ -1,0 +1,44 @@
+[
+  {
+    "source_url": "https://www.youtube.com/watch?v=HkJuEcNu_8E",
+    "media_sha256": "06bfcd630b600dd37c5b28828a22218414a6e3c3fee1be5b20ea8a4a27022d3a",
+    "match_id": "champions-paris-2025-grand-final-nrg-fnc",
+    "visibility_scope": "observer_truth",
+    "third_party_media_included": false
+  },
+  {
+    "source_url": "https://www.youtube.com/watch?v=58fhQgXv3iY",
+    "media_sha256": "37ff340444a3048ae15a1090b974c23468fa054084471235f82846423f90e457",
+    "match_id": "champions-paris-2025-playoffs-prx-th",
+    "visibility_scope": "observer_truth",
+    "third_party_media_included": false
+  },
+  {
+    "source_url": "https://www.youtube.com/watch?v=_Mqh048pk9A",
+    "media_sha256": "cd29b2a15127bd0ce812c2d4d5bce0c920dd8f4172ea250e773b9d5b9a22997a",
+    "match_id": "champions-paris-2025-group-prx-xlg",
+    "visibility_scope": "observer_truth",
+    "third_party_media_included": false
+  },
+  {
+    "source_url": "https://www.youtube.com/watch?v=BAH3zpoOYXQ",
+    "media_sha256": "6e288320924392c66df029a831e3bff596459a06a5f33744f58985684a2a0f0b",
+    "match_id": "masters-london-2026-playoffs-prx-lev",
+    "visibility_scope": "observer_truth",
+    "third_party_media_included": false
+  },
+  {
+    "source_url": "https://www.youtube.com/watch?v=ZphbktbT26k",
+    "media_sha256": "59022988340fa5b60575d91b7519cf6323732c9f2810a80c85b2445e395d7885",
+    "match_id": "champions-shanghai-2026-groups-loud-edg",
+    "visibility_scope": "observer_truth",
+    "third_party_media_included": false
+  },
+  {
+    "source_url": "https://www.youtube.com/watch?v=2EzWX2VemjM",
+    "media_sha256": "50274c2d62cf9ec06763bc7e70e6d71b50b93915706fa117d98f7fb7c696df44",
+    "match_id": "champions-shanghai-2026-playoffs-g2-t1",
+    "visibility_scope": "observer_truth",
+    "third_party_media_included": false
+  }
+]

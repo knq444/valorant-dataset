@@ -1,0 +1,9 @@
+local-media.json
+local-dataset/
+local-model/
+.venv/
+__pycache__/
+*.mp4
+*.jpg
+*.png
+*.wav

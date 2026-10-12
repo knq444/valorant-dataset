@@ -1,0 +1,547 @@
+{
+  "schema": "cortexarena.tactical-cases.v1",
+  "cases": [
+    {
+      "case_id": "corrode-r7-s0m",
+      "event_id": "corrode-r7-s0m",
+      "title": "s0m — A Pocket, round 7",
+      "match_id": "champions-paris-2025-grand-final-nrg-fnc",
+      "map": "Corrode",
+      "round": 7,
+      "patch": "unknown",
+      "player": "s0m",
+      "team": "NRG",
+      "side": "attack",
+      "source_url": "https://www.youtube.com/watch?v=HkJuEcNu_8E",
+      "timestamp_s": 9040.006673340007,
+      "source_media_sha256": "06bfcd630b600dd37c5b28828a22218414a6e3c3fee1be5b20ea8a4a27022d3a",
+      "context": {
+        "schema_version": 1,
+        "event_id": "corrode-r7-s0m",
+        "event_version": 1,
+        "match_id": "champions-paris-2025-grand-final-nrg-fnc",
+        "source_url": "https://www.youtube.com/watch?v=HkJuEcNu_8E",
+        "timestamp_s": 9040.006673340007,
+        "observed_at": 9040.006673340007,
+        "visibility_scope": "observer_truth",
+        "observer_vs_pov": "observer",
+        "source": "manual_tactical_context",
+        "annotator": "codex-visual-inspection-ai",
+        "verification": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "chosen_action": "hold",
+        "map": "Corrode",
+        "side": "attack",
+        "facts": [
+          {
+            "id": "corrode-r7-s0m-health",
+            "kind": "health",
+            "value": 100,
+            "timestamp_s": 9040.006673340007,
+            "available_at": 9040.006673340007,
+            "confidence": 0.95,
+            "visibility_scope": "observer_truth"
+          },
+          {
+            "id": "corrode-r7-s0m-seconds_remaining",
+            "kind": "seconds_remaining",
+            "value": 85,
+            "timestamp_s": 9040.006673340007,
+            "available_at": 9040.006673340007,
+            "confidence": 0.95,
+            "visibility_scope": "observer_truth"
+          },
+          {
+            "id": "corrode-r7-s0m-allies_alive",
+            "kind": "allies_alive",
+            "value": 5,
+            "timestamp_s": 9040.006673340007,
+            "available_at": 9040.006673340007,
+            "confidence": 0.95,
+            "visibility_scope": "observer_truth"
+          },
+          {
+            "id": "corrode-r7-s0m-enemies_alive",
+            "kind": "enemies_alive",
+            "value": 5,
+            "timestamp_s": 9040.006673340007,
+            "available_at": 9040.006673340007,
+            "confidence": 0.95,
+            "visibility_scope": "observer_truth"
+          },
+          {
+            "id": "corrode-r7-s0m-spike_state",
+            "kind": "spike_state",
+            "value": "unplanted",
+            "timestamp_s": 9040.006673340007,
+            "available_at": 9040.006673340007,
+            "confidence": 0.95,
+            "visibility_scope": "observer_truth"
+          },
+          {
+            "id": "corrode-r7-s0m-ammo",
+            "kind": "ammo",
+            "value": 18,
+            "timestamp_s": 9040.006673340007,
+            "available_at": 9040.006673340007,
+            "confidence": 0.95,
+            "visibility_scope": "observer_truth"
+          }
+        ],
+        "team_context": {
+          "pov": {
+            "id": "nrg",
+            "name": "NRG"
+          },
+          "opponent": {
+            "id": "fnatic",
+            "name": "FNATIC"
+          },
+          "roster_names": [
+            "NRG",
+            "FNATIC"
+          ],
+          "public_fact_ids": [
+            "corrode-r7-s0m-seconds_remaining",
+            "corrode-r7-s0m-allies_alive",
+            "corrode-r7-s0m-enemies_alive",
+            "corrode-r7-s0m-spike_state"
+          ]
+        }
+      },
+      "evidence": {
+        "frame": {
+          "local_path": "datasets/semantic/events/frames/06bfcd630b600dd3/segment-001/frame_0001.jpg",
+          "sha256": "c3c659096c3cfbf74b31ce2ad3afc96ef61c91401700b7fec74c6168913f7f83",
+          "bytes": 61915,
+          "width": 640,
+          "height": 360,
+          "pts": 108371600,
+          "time_base": "1/11988"
+        },
+        "observed": [
+          "Overlay: Corrode, round 7, NRG 4 × 2 FNATIC; POV s0m, A Pocket.",
+          "Vida 100; cronômetro normal 85 s; 5 jogadores vivos por equipe.",
+          "O cronômetro normal de round exibido sustenta estado pré-plant sob este perfil de transmissão.",
+          "Munição da arma mostrada: 18."
+        ],
+        "excluded": [
+          "Contornos através de paredes e posições completas no minimapa são informação de observer; não viram enemy_visible, posição conhecida ou teammate_support.",
+          "Frames, eliminações e desfecho posteriores não informam este juízo."
+        ],
+        "confidence_definition": "0,95 é confiança declarada da inspeção de IA para leitura do overlay, sem calibração e sem equivalência com revisão humana."
+      },
+      "assessment": {
+        "source": "ai_tactical_inference",
+        "status": "ai_inspected_pending",
+        "annotator": "codex-visual-inspection-ai",
+        "inspected_at": "2026-10-12",
+        "verification": "pending",
+        "human_verified": false,
+        "outcome_used": false,
+        "judgment": "conditionally_defensible",
+        "verdict": "Defensável sob condições; superioridade não comprovada.",
+        "summary": "Segurar o ângulo de A Pocket é defensável como contenção local enquanto o ataque reúne informação e coordena espaço. Com 85 s, não há evidência de que esperar este instante já tenha inviabilizado o plant. Também não há prova de que manter este ângulo seja o melhor plano do round.",
+        "inferred": "A arma está orientada para a passagem; trato hold como hipótese da preparação neste frame, sem deduzir duração, intenção de lurk ou ameaça conhecida por s0m.",
+        "alternatives": [
+          {
+            "team": "NRG",
+            "action": "peek",
+            "condition": "Se houver suporte real para trade e utilitário que remova a exposição ao acesso.",
+            "reason": "Uma abertura coordenada pode obter informação e espaço necessários ao plant, em vez de prolongar uma espera sem avanço.",
+            "risk": "Sem suporte ou com outro ângulo aberto, o avanço entrega um duelo isolado; os contornos vermelhos do observer não informam quais ameaças s0m conhecia."
+          },
+          {
+            "team": "NRG",
+            "action": "reposition",
+            "condition": "Se este ângulo não contribuir para o acesso ao objetivo e houver rota protegida para apoiar a execução.",
+            "reason": "Reposicionar pode transformar o jogador em suporte útil para entrada ou proteção do portador.",
+            "risk": "Abandonar o acesso pode permitir flanco; rota, portador e calls não foram confirmados."
+          },
+          {
+            "team": "FNATIC",
+            "action": "hold",
+            "condition": "Se a defesa já negar o acesso com linhas que permitam troca.",
+            "reason": "Antes do plant, conter o acesso e gastar o tempo do ataque pode ser preferível a disputar uma eliminação desnecessária.",
+            "risk": "Esperar em um setup sem visão útil pode conceder espaço e plant; a posição ou o utilitário dos defensores não é determinado por este POV."
+          }
+        ],
+        "unknowns": [
+          "Informação realmente disponível a s0m",
+          "Cobertura e linha de trade",
+          "Portador e rota da spike",
+          "Chamadas e plano do ataque",
+          "Recursos e posições observáveis da defesa"
+        ],
+        "principle_ids": [
+          "objective_and_time",
+          "trade_and_information",
+          "resource_exposure"
+        ],
+        "research_document": "docs/VALORANT_TACTICAL_RESEARCH.md"
+      }
+    },
+    {
+      "case_id": "corrode-r7-ethan",
+      "event_id": "corrode-r7-ethan",
+      "title": "Ethan — A Elbow, round 7",
+      "match_id": "champions-paris-2025-grand-final-nrg-fnc",
+      "map": "Corrode",
+      "round": 7,
+      "patch": "unknown",
+      "player": "Ethan",
+      "team": "NRG",
+      "side": "attack",
+      "source_url": "https://www.youtube.com/watch?v=HkJuEcNu_8E",
+      "timestamp_s": 9060.026693360027,
+      "source_media_sha256": "06bfcd630b600dd37c5b28828a22218414a6e3c3fee1be5b20ea8a4a27022d3a",
+      "context": {
+        "schema_version": 1,
+        "event_id": "corrode-r7-ethan",
+        "event_version": 1,
+        "match_id": "champions-paris-2025-grand-final-nrg-fnc",
+        "source_url": "https://www.youtube.com/watch?v=HkJuEcNu_8E",
+        "timestamp_s": 9060.026693360027,
+        "observed_at": 9060.026693360027,
+        "visibility_scope": "observer_truth",
+        "observer_vs_pov": "observer",
+        "source": "manual_tactical_context",
+        "annotator": "codex-visual-inspection-ai",
+        "verification": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "chosen_action": "use_utility",
+        "map": "Corrode",
+        "side": "attack",
+        "facts": [
+          {
+            "id": "corrode-r7-ethan-health",
+            "kind": "health",
+            "value": 92,
+            "timestamp_s": 9060.026693360027,
+            "available_at": 9060.026693360027,
+            "confidence": 0.95,
+            "visibility_scope": "observer_truth"
+          },
+          {
+            "id": "corrode-r7-ethan-seconds_remaining",
+            "kind": "seconds_remaining",
+            "value": 65,
+            "timestamp_s": 9060.026693360027,
+            "available_at": 9060.026693360027,
+            "confidence": 0.95,
+            "visibility_scope": "observer_truth"
+          },
+          {
+            "id": "corrode-r7-ethan-allies_alive",
+            "kind": "allies_alive",
+            "value": 4,
+            "timestamp_s": 9060.026693360027,
+            "available_at": 9060.026693360027,
+            "confidence": 0.95,
+            "visibility_scope": "observer_truth"
+          },
+          {
+            "id": "corrode-r7-ethan-enemies_alive",
+            "kind": "enemies_alive",
+            "value": 4,
+            "timestamp_s": 9060.026693360027,
+            "available_at": 9060.026693360027,
+            "confidence": 0.95,
+            "visibility_scope": "observer_truth"
+          },
+          {
+            "id": "corrode-r7-ethan-spike_state",
+            "kind": "spike_state",
+            "value": "unplanted",
+            "timestamp_s": 9060.026693360027,
+            "available_at": 9060.026693360027,
+            "confidence": 0.95,
+            "visibility_scope": "observer_truth"
+          }
+        ],
+        "team_context": {
+          "pov": {
+            "id": "nrg",
+            "name": "NRG"
+          },
+          "opponent": {
+            "id": "fnatic",
+            "name": "FNATIC"
+          },
+          "roster_names": [
+            "NRG",
+            "FNATIC"
+          ],
+          "public_fact_ids": [
+            "corrode-r7-ethan-seconds_remaining",
+            "corrode-r7-ethan-allies_alive",
+            "corrode-r7-ethan-enemies_alive",
+            "corrode-r7-ethan-spike_state"
+          ]
+        }
+      },
+      "evidence": {
+        "frame": {
+          "local_path": "datasets/semantic/events/frames/06bfcd630b600dd3/segment-002/frame_0001.jpg",
+          "sha256": "1ef2060991f3b7996467e843e4814d826038a8dfe62e342706bd3517f2e043e0",
+          "bytes": 67924,
+          "width": 640,
+          "height": 360,
+          "pts": 108611600,
+          "time_base": "1/11988"
+        },
+        "observed": [
+          "Overlay: Corrode, round 7, NRG 4 × 2 FNATIC; POV Ethan, A Elbow.",
+          "Vida 92; cronômetro normal 65 s; 4 jogadores vivos por equipe.",
+          "O cronômetro normal de round exibido sustenta estado pré-plant sob este perfil de transmissão.",
+          "Mão de KAY/O levantada diante de uma smoke; munição não determinada."
+        ],
+        "excluded": [
+          "Contornos através de paredes e posições completas no minimapa são informação de observer; não viram enemy_visible, posição conhecida ou teammate_support.",
+          "Frames, eliminações e desfecho posteriores não informam este juízo."
+        ],
+        "confidence_definition": "0,95 é confiança declarada da inspeção de IA para leitura do overlay, sem calibração e sem equivalência com revisão humana."
+      },
+      "assessment": {
+        "source": "ai_tactical_inference",
+        "status": "ai_inspected_pending",
+        "annotator": "codex-visual-inspection-ai",
+        "inspected_at": "2026-10-12",
+        "verification": "pending",
+        "human_verified": false,
+        "outcome_used": false,
+        "judgment": "conditionally_defensible",
+        "verdict": "Defensável sob condições; superioridade não comprovada.",
+        "summary": "Preparar utilitário diante da smoke em A Elbow é defensável se a habilidade criar uma janela que os aliados consigam explorar. O frame não confirma a habilidade específica, seu alvo nem uma entrada coordenada; por isso não aprovo automaticamente o lançamento.",
+        "inferred": "A mão de KAY/O está levantada diante da smoke. use_utility representa preparação/hipótese de uso; não confirma flash, supressão, granada ou efeito já aplicado.",
+        "alternatives": [
+          {
+            "team": "NRG",
+            "action": "hold",
+            "condition": "Se ainda não houver aliado pronto para explorar a habilidade e a posição permitir esperar com proteção.",
+            "reason": "Sincronizar o efeito com contato real pode ser melhor que gastar a janela de utilitário enquanto ninguém avança.",
+            "risk": "Esperar pode permitir que a defesa reorganize ângulos ou consumir o tempo para chegar e plantar; disponibilidade dos aliados é desconhecida."
+          },
+          {
+            "team": "NRG",
+            "action": "reposition",
+            "condition": "Se houver risco de contato imediato enquanto a arma não estiver pronta e existir cobertura alcançável.",
+            "reason": "Reduzir exposição ou recuperar prontidão de arma pode ser melhor que permanecer vulnerável com utilitário equipado.",
+            "risk": "A troca de posição ou equipamento pode atrasar a entrada; o frame não confirma inimigo visível nem rota segura."
+          },
+          {
+            "team": "FNATIC",
+            "action": "reposition",
+            "condition": "Se a defesa receber um sinal legítimo de utilitário e puder sair do efeito mantendo apoio ao objetivo.",
+            "reason": "Evitar o efeito e recuperar outro ângulo pode negar valor à habilidade sem entregar um duelo cego através da smoke.",
+            "risk": "Recuar indiscriminadamente pode ceder o site; a defesa não recebe informação de lançamento só porque o observer mostra a mão de Ethan."
+          }
+        ],
+        "unknowns": [
+          "Habilidade específica e carga disponível",
+          "Alvo, duração e efeito da habilidade",
+          "Momento de contato dos aliados",
+          "Munição de Ethan",
+          "Conhecimento legítimo da defesa",
+          "Rota e proteção do portador"
+        ],
+        "principle_ids": [
+          "objective_and_time",
+          "trade_and_information",
+          "resource_exposure"
+        ],
+        "research_document": "docs/VALORANT_TACTICAL_RESEARCH.md"
+      }
+    },
+    {
+      "case_id": "corrode-r7-kaajak",
+      "event_id": "corrode-r7-kaajak",
+      "title": "kaajak — A Site, round 7",
+      "match_id": "champions-paris-2025-grand-final-nrg-fnc",
+      "map": "Corrode",
+      "round": 7,
+      "patch": "unknown",
+      "player": "kaajak",
+      "team": "FNATIC",
+      "side": "defense",
+      "source_url": "https://www.youtube.com/watch?v=HkJuEcNu_8E",
+      "timestamp_s": 9080.013346680013,
+      "source_media_sha256": "06bfcd630b600dd37c5b28828a22218414a6e3c3fee1be5b20ea8a4a27022d3a",
+      "context": {
+        "schema_version": 1,
+        "event_id": "corrode-r7-kaajak",
+        "event_version": 1,
+        "match_id": "champions-paris-2025-grand-final-nrg-fnc",
+        "source_url": "https://www.youtube.com/watch?v=HkJuEcNu_8E",
+        "timestamp_s": 9080.013346680013,
+        "observed_at": 9080.013346680013,
+        "visibility_scope": "observer_truth",
+        "observer_vs_pov": "observer",
+        "source": "manual_tactical_context",
+        "annotator": "codex-visual-inspection-ai",
+        "verification": {
+          "status": "pending",
+          "reviewer": null,
+          "reviewed_at": null
+        },
+        "chosen_action": "hold",
+        "map": "Corrode",
+        "side": "defense",
+        "facts": [
+          {
+            "id": "corrode-r7-kaajak-health",
+            "kind": "health",
+            "value": 100,
+            "timestamp_s": 9080.013346680013,
+            "available_at": 9080.013346680013,
+            "confidence": 0.95,
+            "visibility_scope": "observer_truth"
+          },
+          {
+            "id": "corrode-r7-kaajak-seconds_remaining",
+            "kind": "seconds_remaining",
+            "value": 45,
+            "timestamp_s": 9080.013346680013,
+            "available_at": 9080.013346680013,
+            "confidence": 0.95,
+            "visibility_scope": "observer_truth"
+          },
+          {
+            "id": "corrode-r7-kaajak-allies_alive",
+            "kind": "allies_alive",
+            "value": 3,
+            "timestamp_s": 9080.013346680013,
+            "available_at": 9080.013346680013,
+            "confidence": 0.95,
+            "visibility_scope": "observer_truth"
+          },
+          {
+            "id": "corrode-r7-kaajak-enemies_alive",
+            "kind": "enemies_alive",
+            "value": 3,
+            "timestamp_s": 9080.013346680013,
+            "available_at": 9080.013346680013,
+            "confidence": 0.95,
+            "visibility_scope": "observer_truth"
+          },
+          {
+            "id": "corrode-r7-kaajak-spike_state",
+            "kind": "spike_state",
+            "value": "unplanted",
+            "timestamp_s": 9080.013346680013,
+            "available_at": 9080.013346680013,
+            "confidence": 0.95,
+            "visibility_scope": "observer_truth"
+          },
+          {
+            "id": "corrode-r7-kaajak-ammo",
+            "kind": "ammo",
+            "value": 20,
+            "timestamp_s": 9080.013346680013,
+            "available_at": 9080.013346680013,
+            "confidence": 0.95,
+            "visibility_scope": "observer_truth"
+          }
+        ],
+        "team_context": {
+          "pov": {
+            "id": "fnatic",
+            "name": "FNATIC"
+          },
+          "opponent": {
+            "id": "nrg",
+            "name": "NRG"
+          },
+          "roster_names": [
+            "NRG",
+            "FNATIC"
+          ],
+          "public_fact_ids": [
+            "corrode-r7-kaajak-seconds_remaining",
+            "corrode-r7-kaajak-allies_alive",
+            "corrode-r7-kaajak-enemies_alive",
+            "corrode-r7-kaajak-spike_state"
+          ]
+        }
+      },
+      "evidence": {
+        "frame": {
+          "local_path": "datasets/semantic/tactical-inspection/frames/06bfcd630b600dd3/segment-001/frame_0001.jpg",
+          "sha256": "cb30d829a5d173098cb70f696fe1e2857de5bc5f43a36186553bc5f146c28c2a",
+          "bytes": 64195,
+          "width": 640,
+          "height": 360,
+          "pts": 108851200,
+          "time_base": "1/11988"
+        },
+        "observed": [
+          "Overlay: Corrode, round 7, NRG 4 × 2 FNATIC; POV kaajak, A Site.",
+          "Vida 100; cronômetro normal 45 s; 3 jogadores vivos por equipe.",
+          "O cronômetro normal de round exibido sustenta estado pré-plant sob este perfil de transmissão.",
+          "Munição da arma mostrada: 20."
+        ],
+        "excluded": [
+          "Contornos através de paredes e posições completas no minimapa são informação de observer; não viram enemy_visible, posição conhecida ou teammate_support.",
+          "Frames, eliminações e desfecho posteriores não informam este juízo."
+        ],
+        "confidence_definition": "0,95 é confiança declarada da inspeção de IA para leitura do overlay, sem calibração e sem equivalência com revisão humana."
+      },
+      "assessment": {
+        "source": "ai_tactical_inference",
+        "status": "ai_inspected_pending",
+        "annotator": "codex-visual-inspection-ai",
+        "inspected_at": "2026-10-12",
+        "verification": "pending",
+        "human_verified": false,
+        "outcome_used": false,
+        "judgment": "conditionally_defensible",
+        "verdict": "Defensável sob condições; superioridade não comprovada.",
+        "summary": "Segurar a passagem em A Site é defensável para uma defesa em 3v3 antes do plant: manter uma negação útil e gastar parte dos 45 s pode valer mais que buscar uma kill fora do objetivo. Isso depende de o ângulo realmente proteger acesso e permitir reação ou troca.",
+        "inferred": "O rifle aponta para a passagem no site; hold é hipótese do preparo local. Não deduzo que kaajak saiba onde o ataque está, nem que exista crossfire funcional só porque o minimapa mostra aliados.",
+        "alternatives": [
+          {
+            "team": "FNATIC",
+            "action": "reposition",
+            "condition": "Se o ângulo já tiver sido revelado ou houver utilitário legítimo ameaçando isolá-lo, e outra posição continuar protegendo o acesso.",
+            "reason": "Mudar o ângulo pode dificultar uma abertura preparada e preservar capacidade de contestar o plant.",
+            "risk": "Mover-se no timing errado cede contato ou site; não há prova neste frame de que o ataque conheça sua posição."
+          },
+          {
+            "team": "FNATIC",
+            "action": "hold",
+            "condition": "Se um aliado tiver linha, arma pronta e timing úteis para cobrir a mesma ameaça.",
+            "reason": "Um contato com possibilidade de troca é preferível a três duelos isolados em sequência.",
+            "risk": "Proximidade no minimapa não prova trade; smoke, parede e prontidão podem separar os defensores."
+          },
+          {
+            "team": "NRG",
+            "action": "use_utility",
+            "condition": "Se o ataque tiver uma habilidade adequada e jogadores prontos para explorar informação ou negação de ângulo antes da entrada.",
+            "reason": "Com 45 s antes do plant, coordenar remoção de ângulo e trade pode ser melhor que uma abertura individual sem informação.",
+            "risk": "O tempo para rota, limpeza e plant não foi medido; guardar ou usar tarde demais também pode perder a janela. Vida e munição de kaajak não revelam recursos do ataque."
+          }
+        ],
+        "unknowns": [
+          "Conhecimento legítimo de kaajak",
+          "Se o ângulo já foi revelado ao ataque",
+          "Linha e timing de trade da defesa",
+          "Utilitário de ambas as equipes",
+          "Posse da spike",
+          "Tempo de limpeza, chegada e plant"
+        ],
+        "principle_ids": [
+          "objective_and_time",
+          "trade_and_information",
+          "resource_exposure"
+        ],
+        "research_document": "docs/VALORANT_TACTICAL_RESEARCH.md"
+      }
+    }
+  ]
+}

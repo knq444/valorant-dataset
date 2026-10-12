@@ -1,0 +1,312 @@
+{
+  "schema": "cortexarena.vod-source-catalog.v1",
+  "project_version": "0.9",
+  "verified_on": "2026-10-12",
+  "catalog_scope": "official_public_video_references_not_media_distribution",
+  "verification": {
+    "method": "yt_dlp.extract_info(download=False) plus official Riot event pages",
+    "extractor_version": "2026.08.19",
+    "media_downloaded_by_catalog_audit": false,
+    "all_frames_inspected": false,
+    "js_runtime_warning": "No supported JavaScript runtime found; some formats may be missing.",
+    "official_channel": {
+      "name": "VALORANT Champions Tour",
+      "id": "UCA1d3HFGFUmkKr2JIUA5Vlw",
+      "handle": "@ValorantEsports",
+      "url": "https://www.youtube.com/channel/UCA1d3HFGFUmkKr2JIUA5Vlw",
+      "official_link_evidence": "https://valorantesports.com/en-AU/news/masters-london-everything-you-need-to-know"
+    }
+  },
+  "field_semantics": {
+    "scope": "full_match/full_map/edited denotes publisher-declared coverage; continuity requires later visual validation.",
+    "provider_upload_date": "YouTube upload_date converted from YYYYMMDD; not a confirmed match date.",
+    "match_date": "null unless independently confirmed by a primary match-specific source.",
+    "duration_s": "Approximate individual video metadata; use decoded registered media duration after acquisition.",
+    "patch": "unknown until a primary source establishes the tournament patch.",
+    "proposed_partition": "Whole source grouping; none of its frames, replays or derivatives may cross dataset partitions.",
+    "source_media_sha256": "null until actual locally acquired media is hashed; do not invent a video hash."
+  },
+  "rights": {
+    "source_license": "not_verified",
+    "source_cc_by_verified": false,
+    "video_redistribution_authorized": false,
+    "training_authorization_established_by_this_catalog": false,
+    "own_material_license_proposal": "CC-BY-4.0",
+    "own_material_license_scope": "Original annotations and own model parameters only, to the extent rights are controlled; no third-party video, frames, audio, copied transcripts, logos or assets.",
+    "riot_approval_claimed": false,
+    "policy_references": [
+      "https://www.riotgames.com/en/legal",
+      "https://www.youtube.com/static?template=terms",
+      "https://support.google.com/youtube/answer/2797468?hl=en",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ]
+  },
+  "prior_corpus_video_ids_observed": [
+    "HkJuEcNu_8E",
+    "_Mqh048pk9A",
+    "58fhQgXv3iY"
+  ],
+  "selection": {
+    "initial_low_cost_video_ids": [
+      "BAH3zpoOYXQ",
+      "ZphbktbT26k"
+    ],
+    "expanded_selected_video_ids": [
+      "BAH3zpoOYXQ",
+      "ZphbktbT26k",
+      "2EzWX2VemjM"
+    ],
+    "proposed_visual_sampling_interval_s": 60,
+    "sampling_limit": "Sparse broadcast-state samples do not detect or validate every tactical decision."
+  },
+  "sources": [
+    {
+      "source_id": "youtube:BAH3zpoOYXQ",
+      "video_id": "BAH3zpoOYXQ",
+      "match_id": "masters-london-2026-playoffs-prx-lev",
+      "source_url": "https://www.youtube.com/watch?v=BAH3zpoOYXQ",
+      "title": "PRX vs. LEV - FULL MATCH - VALORANT Masters London - Playoffs",
+      "uploader": "VALORANT Champions Tour",
+      "uploader_id": "@ValorantEsports",
+      "channel_id": "UCA1d3HFGFUmkKr2JIUA5Vlw",
+      "availability": "public",
+      "live_status": "not_live",
+      "is_live": false,
+      "was_live": false,
+      "provider_upload_date": "2026-06-12",
+      "provider_upload_date_raw": "20260612",
+      "match_date": null,
+      "match_date_verified": false,
+      "duration_s": 4789,
+      "duration_display": "01:19:49",
+      "scope": "full_match",
+      "scope_basis": "publisher_title",
+      "continuity_verified": false,
+      "map_boundaries_verified": false,
+      "visibility_scope": "observer_truth",
+      "teams": [
+        {
+          "id": "PRX",
+          "name": "Paper Rex",
+          "region": "Pacific"
+        },
+        {
+          "id": "LEV",
+          "name": "Leviatán",
+          "region": "Americas"
+        }
+      ],
+      "event": {
+        "name": "VALORANT Masters London",
+        "season": 2026,
+        "stage": "playoffs",
+        "published_event_start_date": "2026-06-06",
+        "published_event_end_date": "2026-06-21",
+        "primary_reference": "https://valorantesports.com/en-AU/news/masters-london-everything-you-need-to-know"
+      },
+      "patch": "unknown",
+      "license_from_extractor": null,
+      "source_cc_by_verified": false,
+      "source_media_sha256": null,
+      "selected": true,
+      "proposed_partition": "train",
+      "selection_reason": "Short complete series from a second event, with Pacific/Americas teams; new URL relative to the prior corpus."
+    },
+    {
+      "source_id": "youtube:ZphbktbT26k",
+      "video_id": "ZphbktbT26k",
+      "match_id": "champions-shanghai-2026-group-loud-edg",
+      "source_url": "https://www.youtube.com/watch?v=ZphbktbT26k",
+      "title": "LOUD vs. EDG — FULL MATCH — VALORANT Champions Shanghai — Group Stage",
+      "uploader": "VALORANT Champions Tour",
+      "uploader_id": "@ValorantEsports",
+      "channel_id": "UCA1d3HFGFUmkKr2JIUA5Vlw",
+      "availability": "public",
+      "live_status": "not_live",
+      "is_live": false,
+      "was_live": false,
+      "provider_upload_date": "2026-09-26",
+      "provider_upload_date_raw": "20260926",
+      "match_date": null,
+      "match_date_verified": false,
+      "duration_s": 4658,
+      "duration_display": "01:17:38",
+      "scope": "full_match",
+      "scope_basis": "publisher_title",
+      "continuity_verified": false,
+      "map_boundaries_verified": false,
+      "visibility_scope": "observer_truth",
+      "teams": [
+        {
+          "id": "LOUD",
+          "name": "LOUD",
+          "region": "Americas"
+        },
+        {
+          "id": "EDG",
+          "name": "EDward Gaming",
+          "region": "CN"
+        }
+      ],
+      "event": {
+        "name": "VALORANT Champions Shanghai",
+        "season": 2026,
+        "stage": "group_stage",
+        "published_date_window": "September–October 2026",
+        "primary_reference": "https://valorantesports.com/en-US/tournament/115576361459045501/overview"
+      },
+      "patch": "unknown",
+      "license_from_extractor": null,
+      "source_cc_by_verified": false,
+      "source_media_sha256": null,
+      "selected": true,
+      "proposed_partition": "validation",
+      "selection_reason": "Short complete series with new Americas/CN participants, held out from training as an entire source."
+    },
+    {
+      "source_id": "youtube:2EzWX2VemjM",
+      "video_id": "2EzWX2VemjM",
+      "match_id": "champions-shanghai-2026-playoffs-g2-t1",
+      "source_url": "https://www.youtube.com/watch?v=2EzWX2VemjM",
+      "title": "G2 vs. T1 — FULL MATCH — VALORANT Champions Shanghai — Playoffs Stage",
+      "uploader": "VALORANT Champions Tour",
+      "uploader_id": "@ValorantEsports",
+      "channel_id": "UCA1d3HFGFUmkKr2JIUA5Vlw",
+      "availability": "public",
+      "live_status": "not_live",
+      "is_live": false,
+      "was_live": false,
+      "provider_upload_date": "2026-10-11",
+      "provider_upload_date_raw": "20261011",
+      "match_date": null,
+      "match_date_verified": false,
+      "duration_s": 9061,
+      "duration_display": "02:31:01",
+      "scope": "full_match",
+      "scope_basis": "publisher_title",
+      "continuity_verified": false,
+      "map_boundaries_verified": false,
+      "visibility_scope": "observer_truth",
+      "teams": [
+        {
+          "id": "G2",
+          "name": "G2 Esports",
+          "region": "Americas"
+        },
+        {
+          "id": "T1",
+          "name": "T1",
+          "region": "Pacific"
+        }
+      ],
+      "event": {
+        "name": "VALORANT Champions Shanghai",
+        "season": 2026,
+        "stage": "playoffs",
+        "published_date_window": "September–October 2026",
+        "primary_reference": "https://valorantesports.com/en-US/tournament/115576361459045501/overview"
+      },
+      "patch": "unknown",
+      "license_from_extractor": null,
+      "source_cc_by_verified": false,
+      "source_media_sha256": null,
+      "selected": true,
+      "proposed_partition": "test",
+      "selection_reason": "A third complete source and two additional teams reserved for evaluation; no adjacent frames or replays may enter training."
+    },
+    {
+      "source_id": "youtube:UMIkxgmsOTA",
+      "video_id": "UMIkxgmsOTA",
+      "match_id": "champions-shanghai-2026-playoffs-nrg-100t",
+      "source_url": "https://www.youtube.com/watch?v=UMIkxgmsOTA",
+      "title": "NRG vs. 100T — FULL MATCH — VALORANT Champions Shanghai — Playoffs Stage",
+      "uploader": "VALORANT Champions Tour",
+      "uploader_id": "@ValorantEsports",
+      "channel_id": "UCA1d3HFGFUmkKr2JIUA5Vlw",
+      "availability": "public",
+      "live_status": "not_live",
+      "is_live": false,
+      "was_live": false,
+      "provider_upload_date": "2026-10-11",
+      "provider_upload_date_raw": "20261011",
+      "match_date": null,
+      "match_date_verified": false,
+      "duration_s": 5584,
+      "duration_display": "01:33:04",
+      "scope": "full_match",
+      "scope_basis": "publisher_title",
+      "continuity_verified": false,
+      "map_boundaries_verified": false,
+      "visibility_scope": "observer_truth",
+      "teams": [
+        {
+          "id": "NRG",
+          "name": "NRG",
+          "region": "Americas"
+        },
+        {
+          "id": "100T",
+          "name": "100 Thieves",
+          "region": "Americas"
+        }
+      ],
+      "event": {
+        "name": "VALORANT Champions Shanghai",
+        "season": 2026,
+        "stage": "playoffs",
+        "published_date_window": "September–October 2026",
+        "primary_reference": "https://valorantesports.com/en-US/tournament/115576361459045501/overview"
+      },
+      "patch": "unknown",
+      "license_from_extractor": null,
+      "source_cc_by_verified": false,
+      "source_media_sha256": null,
+      "selected": false,
+      "proposed_partition": "reserve",
+      "selection_reason": "Short recent official series available as a replacement; not silently merged into any frozen partition."
+    }
+  ],
+  "acquisition_cohort": {
+    "method": "yt-dlp with installed Node runtime and bundled EJS package; local source only",
+    "media_registered": [
+      {
+        "source_url": "https://www.youtube.com/watch?v=BAH3zpoOYXQ",
+        "media_sha256": "6e288320924392c66df029a831e3bff596459a06a5f33744f58985684a2a0f0b",
+        "media_bytes": 223202153,
+        "registered_duration_s": 4789.0,
+        "manifest_sha256": "f27861ae9a4dce5070ba3e6e24f9316b91fc918af7664cdc349daf610f5ae532",
+        "inspected_scene_frames": 80,
+        "scene_frame_interval_s": 60,
+        "semantic_analysis_interval_s": 2,
+        "third_party_media_redistributed": false,
+        "human_verified": 0
+      },
+      {
+        "source_url": "https://www.youtube.com/watch?v=ZphbktbT26k",
+        "media_sha256": "59022988340fa5b60575d91b7519cf6323732c9f2810a80c85b2445e395d7885",
+        "media_bytes": 294609205,
+        "registered_duration_s": 4658.0,
+        "manifest_sha256": "b8ff4d4612c147690c80342ca9cc562fdb7975c4920cd7bbabdf17920f0d46bd",
+        "inspected_scene_frames": 78,
+        "scene_frame_interval_s": 60,
+        "semantic_analysis_interval_s": 2,
+        "third_party_media_redistributed": false,
+        "human_verified": 0
+      },
+      {
+        "source_url": "https://www.youtube.com/watch?v=2EzWX2VemjM",
+        "media_sha256": "50274c2d62cf9ec06763bc7e70e6d71b50b93915706fa117d98f7fb7c696df44",
+        "media_bytes": 571731344,
+        "registered_duration_s": 9061.0,
+        "manifest_sha256": "3d8fad0a1cffd3c32ac96aa4e3453c705a8080f72e50ede9ca0831fe73292dc5",
+        "inspected_scene_frames": 151,
+        "scene_frame_interval_s": 60,
+        "semantic_analysis_interval_s": 2,
+        "third_party_media_redistributed": false,
+        "human_verified": 0
+      }
+    ],
+    "dataset": "535 scenes / 6 matches; AI inspection",
+    "dataset_sha256": "d2245328c503fdc6e80fb55b31d10ab11b39e02e14b9a3a4515ce21bfa368ff3"
+  }
+}

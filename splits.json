@@ -1,0 +1,14 @@
+{
+  "train": [
+    "champions-paris-2025-grand-final-nrg-fnc",
+    "masters-london-2026-playoffs-prx-lev"
+  ],
+  "validation": [
+    "champions-paris-2025-playoffs-prx-th",
+    "champions-shanghai-2026-groups-loud-edg"
+  ],
+  "test": [
+    "champions-paris-2025-group-prx-xlg",
+    "champions-shanghai-2026-playoffs-g2-t1"
+  ]
+}

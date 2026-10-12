@@ -1,0 +1,66 @@
+{
+  "schema": "cortexarena.move-candidate-export.v1",
+  "status": "review_proposals_exported",
+  "source": {
+    "match_id": "masters-london-2026-playoffs-prx-lev",
+    "source_url": "https://www.youtube.com/watch?v=BAH3zpoOYXQ",
+    "source_media_sha256": "6e288320924392c66df029a831e3bff596459a06a5f33744f58985684a2a0f0b",
+    "report_sha256": "c9512604db049ab68e8cad2c22d544d1541d5f8b02c947adcf2f9f8052eb506f",
+    "binding_status": "report_declared_media_digest_not_media_reverified",
+    "manifest_sha256": "f27861ae9a4dce5070ba3e6e24f9316b91fc918af7664cdc349daf610f5ae532",
+    "model_sha256": "6e9bd2728434ecbb97ba9e1a09648ee0952f6e707179ddf320b9c4e485a1e14c"
+  },
+  "coverage": {
+    "source_duration_s": 4789.0,
+    "covered_until_s": 4789.0,
+    "complete": true,
+    "timeline_windows": 2393,
+    "gameplay_windows_with_following_sample": 1589,
+    "scope": "sampled_timeline_not_every_action_or_every_player"
+  },
+  "candidate_count": 32,
+  "event_counts": {
+    "reload_candidate": 7,
+    "weapon_fire_candidate": 21,
+    "health_loss_candidate": 4
+  },
+  "coverage_status_counts": {
+    "scene_ineligible": 720,
+    "recognition_unknown": 84,
+    "no_candidate_detected": 1557,
+    "candidate_detected": 32
+  },
+  "conditional_classification_counts": {
+    "Indeterminado": 32
+  },
+  "conditionally_scored_candidates": 26,
+  "unknown_action_candidates": 4,
+  "unscored_candidates": 6,
+  "duplicate_proposals_merged": 0,
+  "omitted_proposals": 0,
+  "validated_candidates": 0,
+  "human_verified_examples": 0,
+  "training_eligible_events": 0,
+  "training_target": null,
+  "media_redistributed": false,
+  "limitations": [
+    "Machine proposals and OCR identity require independent clip review.",
+    "Intervals do not locate the exact action instant or count every action inside them.",
+    "Initial-snapshot rubric points are conditional, experimental and not calibrated win rates.",
+    "Observer evidence does not establish player knowledge or simultaneous actions of both teams.",
+    "Scene labels, event candidates and rubric grades are not validated tactical training targets.",
+    "The exporter binds report/media digests; it does not reverify media bytes or frame visibility."
+  ],
+  "files": {
+    "candidates.jsonl": {
+      "sha256": "1feb6266db8d170ff2aa451504a4238333baa75ebb4c1a1b2407a3d3664d7348",
+      "records": 32,
+      "bytes": 1120642
+    },
+    "timeline.jsonl": {
+      "sha256": "2cbe35c9bfc8e0c7def0373e7533506b43b16ded934a5c87b915e9d40adc2d59",
+      "records": 2393,
+      "bytes": 6667038
+    }
+  }
+}
